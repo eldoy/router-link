@@ -16,5 +16,11 @@
     "enzyme": "^3.4.4",
     "jest": "^23.5.0",
     "react-test-renderer": "^16.4.2"
-  }
+  },
+  "keywords": [
+    "react",
+    "router",
+    "easy",
+    "library"
+  ],
 }
