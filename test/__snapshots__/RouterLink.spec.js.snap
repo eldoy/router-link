@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RouterLink should match the routes 1`] = `
+<Home
+  route={Object {}}
+/>
+`;
+
+exports[`RouterLink should match the routes 2`] = `
+<About
+  route={Object {}}
+/>
+`;
+
+exports[`RouterLink should match the routes 3`] = `
+<Login
+  route={Object {}}
+/>
+`;
+
+exports[`RouterLink should match the routes 4`] = `
+<Chat
+  route={Object {}}
+/>
+`;
+
+exports[`RouterLink should match the routes 5`] = `
+<NotFound
+  route={Object {}}
+/>
+`;
