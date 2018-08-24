@@ -29,7 +29,8 @@ const routes = [
 export default routes
 
 
-// In your App.js, the top level component
+// In your App.js, the top level component, include your routes
+// and pass them as the 'routes' prop to <Router>
 import React, { Component } from 'react'
 import { Router } from '@/router-link'
 import Navigation from '@/components/Navigation.js'
