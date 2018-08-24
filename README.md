@@ -1,6 +1,6 @@
 # Router Link React router
 
-Made out of frustration with `react-router` this router library is incredibly easy to use.
+Made out of frustration with `react-router`, this router library is incredibly easy to use.
 
 ### INSTALLATION
 
@@ -70,7 +70,7 @@ class Home extends Component {
 export default Home
 ```
 
-In your components you can use the router.push('/path') to programmatically trigger a route:
+In your components you can use the `router.push('/path')` to programmatically trigger a route:
 
 ```javascript
 // Import the router library
