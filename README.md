@@ -1,6 +1,6 @@
 # Router Link React router
 
-Made out of frustration with `react-router`, this router library is incredibly easy to use.
+Made out of frustration with the horrible `react-router`, the Router Link library is incredibly easy to use.
 
 ### INSTALLATION
 
