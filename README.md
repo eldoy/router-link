@@ -53,6 +53,7 @@ class App extends Component {
 
 export default App
 
+
 // Use the Link to create links for navigation
 // They will create a-tags with an active class for styling.
 import React, { Component } from 'react'
@@ -70,6 +71,8 @@ class Home extends Component {
 export default Home
 ```
 
+### NAVIGATION
+
 In your components you can use the `router.push('/path')` to programmatically trigger a route:
 
 ```javascript
@@ -79,5 +82,24 @@ import { router } from 'router-link'
 // Do this anywhere inside your component to redirect
 router.push('/login')
 ```
+
+### DYNAMIC ROUTES
+
+Define dynamic routes by adding a `:` in front of the sub-path, and get the parameters as props:
+
+```javascript
+// Define route with parameters
+const routes = [
+  { path: '/messages/:id', view: Messages }
+]
+
+// Use like this
+<Link to={ `/messages/${ message.id }` }>Message</Link>
+```
+
+In this case the the `id` will be available as `this.props.route.id` in your component.
+
+
+### LICENSE
 
 MIT Licensed. Enjoy!
