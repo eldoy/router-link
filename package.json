@@ -1,7 +1,7 @@
 {
   "name": "router-link",
   "description": "React router done right",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "react": "^16.4.2"
   },
